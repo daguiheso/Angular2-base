@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 // permite que codigo se ejecute en cualquier navegador
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent }  from './app.component';
+import { AppComponent }  from './components/app.component';
 
 // Decorador con objeto
 @NgModule({

@@ -9,8 +9,11 @@ import { Component } from '@angular/core';
  */
 @Component({
   selector: 'my-app', // tag de angular 1.x para iniciar el component
-  template: `<h1>Hello {{name}}</h1>`,
+  template:
+  `
+    <h1>Hola {{ name }}</h1>
+  `
 })
 
 // exportando clase con el nombre que queramos
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  { name = "Angular 2"}
