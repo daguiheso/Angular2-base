@@ -1,11 +1,6 @@
 import { Component } from '@angular/core';
+import {Course} from '../common/course'
 
-export interface Course {
-	id: number,
-	name: string,
-	image: string,
-	price: number
-}
 
 const COURSES: Course[] = [
 	{
