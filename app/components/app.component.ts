@@ -11,9 +11,14 @@ import { Component } from '@angular/core';
   selector: 'my-app', // tag de angular 1.x para iniciar el component
   template:
   `
-    <h1>Hola {{ name }}</h1>
+    <header>
+      Comenzando {{name}}
+    </header>
+    <section>
+      <courses></courses>
+    </section>
   `
 })
 
 // exportando clase con el nombre que queramos
-export class AppComponent  { name = "Angular 2"}
+export class AppComponent  { name = "Angular 2!"}

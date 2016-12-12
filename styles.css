@@ -58,6 +58,10 @@ h2{
   font-size:18px;
 }
 
+.courses_list .course img{
+  width: 100%;
+}
+
 .courses_list .course button{
   width:100%;
   background:#7fc719;
